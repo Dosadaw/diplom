@@ -1,0 +1,5 @@
+finance.db
+*.xlsx
+*.png
+__pycache__/
+.env
