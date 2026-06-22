@@ -4,6 +4,3 @@ finance.db
 __pycache__/
 .env
 
-git add web_app.py
-git commit -m "Add web interface for emergency backup"
-git push

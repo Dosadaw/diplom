@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from matplotlib.colors import LinearSegmentedColormap
 
+
 matplotlib.use('Agg')
 matplotlib.rcParams['font.family'] = 'Arial'
 
@@ -385,10 +386,6 @@ def delete_item(item_id):
     conn.close()
     return redirect(url_for('index'))
 
-import matplotlib.patheffects as path_effects
-
-from matplotlib.colors import LinearSegmentedColormap
-import matplotlib.patheffects as path_effects
 
 @app.route('/chart.png')
 def chart():
